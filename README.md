@@ -23,4 +23,4 @@ Within 24 hours, we couldn't try out other simulations for calculation of molecu
 We intend to run these experiments on real hardware or various other noisy models, we avoided doing that during the hackathon due to time constraints. 
 We intend to create several modules that enable to calculate excited state energies and molecular properties efficiently in Qiskit. Other than that intend to explore newer algorithms like Variational Fast Forwarding(VFF) to calculate eigenvalues on IBM Q devices and benchmark the results for the same[[6]](https://www.nature.com/articles/s41534-020-00302-0). We also intend to explore other methods for efficiently simulating strongly correlated systems.
 
-#### We hope to see a powerful simulation tool for qauntum chemistry in near future and hope to continue making most of the NISQ era! 
+#### We hope to see a powerful simulation tool for qauntum chemistry in near future & hope to continue making most of the NISQ era! 
