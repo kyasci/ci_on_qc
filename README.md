@@ -9,8 +9,11 @@ With several applications in drug design, material science, water treatment - aw
 
 Even in this NISQ era, we have several variational algorithms that solve electronic structure problem on Noisy Intermediate Scale Quantum devices. Vaiational Quantum Eigensolver or VQE is one of the most feasible techniques yet. VQE can be used to generate ground state energies, excited state energies[[4]](https://arxiv.org/pdf/1805.08138.pdf) and several properties like charge density, dipole moment etc. of the molecules[[5]](https://arxiv.org/pdf/1509.04279.pdf). Studying reactions dynamics maybe a long shot for now, but we can start somewhere and accurately establishing molecular properties is a great advance. 
 
+## What we tried to do
+
 Keeping all this in mind, in this project, we have attempted to demonstrate such calculations for small molecules - believe me they are not at all small in terms of resources they need- using classical methods of Full Configuration Interaction(FCI) and Hartree fock(HF) method , as well as using variational algorithms . 
 
+## Future possibilities and ideas for enhancing the project
 
 
 
