@@ -11,11 +11,17 @@ Even in this NISQ era, we have several variational algorithms that solve electro
 
 ## What we tried to do
 
-Keeping all this in mind, in this project, we have attempted to demonstrate such calculations for small molecules - believe me they are not at all small in terms of resources they need- using classical methods of Full Configuration Interaction(FCI) and Hartree fock(HF) method , as well as using variational algorithms . 
+Keeping all this in mind, in this project, we have attempted to demonstrate such calculations for small molecules - believe me they are not at all small in terms of resources they need- using classical methods of Full Configuration Interaction(FCI) and Hartree fock(HF) method , as well as using variational algorithms . We carried out classical simulations for H2, H2O, N2, LiH, NH3 using FCI and HF in minimal sto-3g basis and a bigger 6-31g basis. Then we simulated ground state energies for H2 and LiH using VQE on noisy simulator and tried to find hardware efficient ansatz.  
+
+Within 24 hours, we couldn't try out other simulations for calculation of molecular properties, which now form basis for future work.
 
 ## Future possibilities and ideas for enhancing the project
 
+We intend to create several modules that enable to calculate excited state energies and molecular properties efficiently in Qiskit. Other than that intend to explore newer algorithms like Variational Fast Forwarding(VFF) to calculate eigenvalues on IBM Q devices and benchmark the results for the same[[6]](https://www.nature.com/articles/s41534-020-00302-0).
 
+
+
+#### We hope to see a powerful simulation tool for qauntum chemistry in near future and hope to continue making most of the NISQ era! 
 
 
 
